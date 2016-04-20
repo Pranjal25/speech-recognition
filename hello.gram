@@ -1,0 +1,41 @@
+
+grammar hello;
+
+//public <digits> = (one | two | three | four | five | six | seven | eight | nine | zero);
+// public <calculator> = (Add | subtract | multiply | divide ) (digit);
+public <commands>  = (copy | paste | print screen);
+//public <equals> =  (answer); 
+public <computer> = (hey) (computer);
+
+public <greet> = (Hello)|(welcome);
+public <text> =  (my)|(voice)|(message);
+//public <name> = (file) (one | Two |three | four);
+public <type> =(stop);
+public <save> =(save);
+public <enter> = (press)(enter);
+public <select> = (select)(all)|(make)(bold)|(make)(italic)|(make)(underline);
+public <cursor> = (press)(tab)|(undo)|(move)(down)|(move)(up);
+public <system> = (what time) (is it);
+public <program> = (switch) (application)|(maximize)(window)|(minimize)(window);
+public <window>  = (close)(window); 
+public <exit> = (stop)(recognize);
+public <action> = (start | stop ) ( calculator |browser |cell | pad  | paint | word pad );
+public <command> = (open | close) (office word| cell );
+public <net> =   (site) (mail) | (search)|(site);
+public<compose> = (compose)(mail)|(send)(mail)|(show)(sent);
+public<quit> = (press) (escape);
+public<computer> = (open) (my) (computer);
+//public<name> = (pranay) |(prakhar);
+
+
+
+
+
+
+
+
+
+
+
+
+
